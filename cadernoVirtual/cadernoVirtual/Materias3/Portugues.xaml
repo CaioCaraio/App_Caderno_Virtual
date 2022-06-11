@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Portugues"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="3° ano - Sujeito"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="o sujeito é um termo essencial da oração e é definido como o ser sobre o qual se faz uma declaração. No entanto, existem algumas características que fazem com que ele receba diferentes classificações, tais como: sujeito simples, sujeito composto, sujeito oculto (determinado) e sujeito indeterminado. "
+        />
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Biologia"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Teoria Celular"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A teoria celular é um dos conhecimentos fundamentais da biologia. Agora universalmente aceita, a teoria celular afirma que todos os seres vivos são compostos por células, a unidade estrutural e organizacional básica de todos os organismos e que todas as células vêm de células pré-existentes.
+Os três princípios da teoria celular são descritos abaixo:
+
+Todos os organismos vivos são compostos de uma ou mais células;
+A célula é a unidade básica de estrutura e organização nos organismos;
+As células surgem de células pré-existentes.
+Seus idealizadores foram Matthias Jakob Schleiden e Theodor Schwann."
+        />
+
+    </StackLayout>
+
+</ContentPage>

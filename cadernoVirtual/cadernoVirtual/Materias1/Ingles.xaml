@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Ingles"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Simple Past"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="O Simple Past , também chamado de Past Simple (passado simples), é um dos tempos verbais do inglês. Ele é equivalente ao passado simples na língua portuguesa.
+
+Quando usar?
+O Simple Past é usado para indicar ações passadas já concluídas, ou seja, para falar de fatos que já aconteceram; que começaram e terminaram no passado.
+
+Expressões temporais usadas com o Simple Past
+Para reforçar o uso do Simple Past, muitas expressões temporais são utilizadas nas frases.
+
+Os exemplos mais usuais são: yesterday (ontem), the day before yesterday (anteontem), last night (ontem à noite), last year (ano passado), last month (mês passado), last week (semana passada), ago (atrás), etc."
+        />
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Quimica"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Tabela Periódica"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A Tabela Periódica é um modelo que agrupa todos os elementos químicos conhecidos e suas propriedades. Eles estão organizados em ordem crescente de número atômico (número de prótons).
+
+No total, a nova Tabela Periódica possui 118 elementos químicos (92 naturais e 26 artificiais).
+
+Cada quadrado especifica o nome do elemento químico, seu símbolo e seu número atômico."
+        />
+
+    </StackLayout>
+
+</ContentPage>

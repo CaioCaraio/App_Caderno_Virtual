@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.ProgWeb2"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="2° ano - Utilização da linguagem PHP"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="PHP é um acrônimo recursivo para PHP: Hypertext Preprocessor (Pré-Processador de Hipertexto), que originalmente se chamava Personal Home Page (Página Inicial Pessoal).
+
+Ele também é um subconjunto de linguagens de scripts como JavaScript e Python. A diferença é que PHP costuma ser mais usado para comunicação do lado do servidor (back-end). 
+
+Enquanto isso, JavaScript pode ser usado tanto para o front-end quanto para o back-end – e Python é apenas para o lado do servidor (back-end).
+ Uma linguagem de script serve para automatizar a execução de tarefas num ambiente de tempo de execução especial. Isso inclui dizer para uma página estática (construída com HTML e CSS) para executar ações específicas com regras que você definiu anteriormente."
+        />
+
+    </StackLayout>
+
+</ContentPage>

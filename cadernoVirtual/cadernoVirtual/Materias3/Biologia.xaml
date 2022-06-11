@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Biologia"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="3° ano - Genética"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A Genética é a parte da Biologia que estuda a hereditariedade, ou seja, a forma como as características são repassadas de geração para geração. Considera-se que essa ciência iniciou-se com os experimentos e leis propostas por um monge chamado Gregor Mendel, em um trabalho publicado em 1866.
+
+Mendel esperava, com o desenvolvimento de seus trabalhos com ervilhas, entender por que o cruzamento entre híbridos gerava descendentes tão diferentes. Segundo alguns autores, com esses trabalhos, Mendel pretendia criar formas de desenvolver plantas híbridas que conservassem características importantes para a agricultura."
+        />
+
+    </StackLayout>
+
+</ContentPage>

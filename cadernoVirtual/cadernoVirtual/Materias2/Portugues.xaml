@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Portugues"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="2° ano - Redação"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A redação é um processo de escrita que tem o objetivo de expressar alguma coisa. Ou seja, é a estruturação de um texto, por meio da ligação entre palavras, orações, parágrafos etc, cujo objetivo é transmitir uma mensagem ao leitor.
+- Estrutura de uma redação dissertativa-argumentativa
+Uma redação dissertativa-argumentativa é dividida em três partes: introdução, desenvolvimento e conclusão. Essas três etapas devem ser respeitadas para que o texto não se torne confuso e consiga transmitir, de forma coesa, a ideia que você está querendo repassar."
+        />
+
+    </StackLayout>
+
+</ContentPage>

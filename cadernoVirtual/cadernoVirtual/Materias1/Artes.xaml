@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Artes"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Arte romana"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A arte romana foi produzida pelo povo pertencente à Roma Antiga e perdurou aproximadamente do século VIII a.C. ao século IV d.C.
+
+Foi fortemente influenciada pelos etruscos e gregos, sendo que as manifestações artísticas mais significativas remontam ao estabelecimento da República no ano de 509 a.C.
+A arte desse período é dividida em arte da Roma Republicana (antes de 27 a.C.) e a da Roma Imperial (do ano 27 a.C. em diante)."
+        />
+
+    </StackLayout>
+
+</ContentPage>

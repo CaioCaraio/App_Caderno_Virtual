@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Portugues"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Gêneros Literários"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A literatura é uma manifestação artística difícil de ser conceituada. Para nos ajudar a melhor entendê-la, Aristoteles, em sua Arte poética, definiu aquilo que chamamos de gênero literários. Portanto, é interesante observar que a história da teoria dos gêneros pode ser contada a partir da antiguidade gregoromana, quando tambem surgiram as primeiras manifestações poéticas da cultura ocidental.
+Os gêneros literários reúnem um conjunto de obras que apresentam características análogas de forma e conteúdo.
+Essa classificação pode ser feita de acordo com critérios semânticos, sintáticos, fonológia, formais, contextuais,
+Eles se devidem em três categorias básicas: 
+épico - ou narrativo como é conhecido
+tem a presença de um narrador responsável por contar a historia na qual os personagens atuam em um determinado espaço e tempo.
+
+lírico - apresentam sentimentos, emoções, são permeados pela função poética da linguagem. Neles há a predominância de pronomes e verbos na 1° pessoa, além da
+exploração da musicalidade das palavras. 
+
+dramático - são próprios para a apresentação e apreendem a obra literária em versos ou prosas passíveis de encenação teatral. A voz narrativa está entregue às personagens, atores que contam uma história por meio de diálogos ou monólogos."
+        />
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.ProgWeb"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - HTML"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="o HTML não é uma linguagem de programação, e sim uma linguagem de marcação. Ou seja, o objetivo não é criar um software, mas um conjunto de regras que estruturam uma página web e arrumam componentes visuais. É uma ferramenta utilizada para fornecer informações para as pessoas que acessam os sites, navegadores e mecanismos de busca.
+
+Mesmo não sendo uma linguagem de programação, possui regras de sintaxe e palavras reservadas de modo semelhante. Por isso, requer estudo para que as futuras pessoas desenvolvedoras consigam realizar tarefas com mais facilidade. Quanto mais domínio ela tiver, mais fácil será resolver os problemas na construção de um site"
+        />
+
+    </StackLayout>
+
+</ContentPage>

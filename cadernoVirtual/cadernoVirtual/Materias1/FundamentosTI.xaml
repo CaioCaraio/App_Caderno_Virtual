@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.FundamentosTI"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Atalhos do teclado"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="Atalhos de teclado são teclas ou combinações de teclas que fornecem uma maneira alternativa de fazer algo que você normalmente faria com um mouse, por exemplo:
+Ctrl + X - Recortar o item selecionado.
+
+Ctrl + C (ou Ctrl + Insert) - Copie o item selecionado.
+
+Ctrl + V (ou Shift + Insert) - Colar o item selecionado.
+
+Ctrl + Z - Desfazer uma ação.
+
+Alt + Tab - Alterne entre aplicativos abertos.
+
+Alt + F4 - Feche o item ativo ou sair do aplicativo ativo"
+        />
+
+    </StackLayout>
+
+</ContentPage>

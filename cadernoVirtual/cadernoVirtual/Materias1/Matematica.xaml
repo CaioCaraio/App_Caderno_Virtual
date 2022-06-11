@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Matematica"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Função Quadrática"
+            HorizontalOptions="Center"
+            FontSize="Text"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="- a função
+Sendo a, b e c números reais e a ≠ 0, 
+f(x)= ax² +bx+c é chamada de função polinomial do 2° grau ou função quadrática.
+- Exemplos:
+a) y: 5x2 – 3x + 8
+b) y = -2x2+x
+c) g(x)= x² - √3
+
+- o gráfico
+Diferente da função de 1° grau, o gráfico de uma função quadrática é uma parábola (curva).
+obs:
+- se a>0, a concavidade será para cima;
+- se a<0, a concavidade será para baixo.
+
+- raizes da função
+As raízes da função polinomial do 2° grau são soluções da fórmula de Bhaskara:
+x = -b±√b² - 4.a.c/2.a
+
+Obs:
+- quando a vértice toca no eixo x, as
+raízes seram iguais, e y=0;
+- quando for positivo, haverá duas raízes
+distintas;
+- quando for negativo, não haverá raiz."
+        />
+
+    </StackLayout>
+
+</ContentPage>

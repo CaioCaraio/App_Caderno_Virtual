@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Fisica"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - MVU"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="Movimento uniformemente variado (MUV) trata-se de um movimento no qual a mudança de velocidade, chamada de aceleração, ocorre a uma taxa constante. O movimento uniformemente variado é um caso particular do movimento variado. Neste, a velocidade apenas varia, enquanto naquele a velocidade varia de maneira constante, isto é, sua magnitude sofre acréscimos ou reduções iguais, a cada segundo.
+
+Veja também: Tudo o que você precisa saber sobre as leis de Newton.
+
+Quando algum móvel desenvolve um movimento uniformemente variado, a sua velocidade aumentará ou diminuirá de forma constante, a cada segundo. Quando essa velocidade aumenta, dizemos que o seu movimento é acelerado; quando diminui, dizemos que seu movimento é retardado.
+
+O movimento uniformemente variado pode ser descrito por meio de funções horárias, similares àquelas usadas para o movimento uniforme, sendo mais gerais."
+        />
+
+    </StackLayout>
+
+</ContentPage>

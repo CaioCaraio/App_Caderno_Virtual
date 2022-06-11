@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Matematica"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="2° ano - Análise Combinatória"
+            HorizontalOptions="Center"
+            FontSize="Text"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="É a parte da matemática que faz a análise das possibilidades e das combinações possíveis entre um conjunto de elementos.
+- Tipos de combinatória
+Basicamente há três tipos de agrupamentos: arranjos, combinações e permutações.
+
+-Nos arranjos, os agrupamentos dos elementos dependem da ordem e da natureza dos mesmos.
+
+Para obter o arranjo simples de n elementos tomados, p a p (p ≤ n), utiliza-se a seguinte expressão: 
+An,p = n!/(n-p)!
+ 
+-As permutações são agrupamentos ordenados, onde o número de elementos (n) do agrupamento é igual ao número de elementos disponíveis.
+Note que a permutação é um caso especial de arranjo, quando o número de elementos é igual ao número de agrupamentos. Desta maneira, o denominador na fórmula do arranjo é igual a 1 na permutação que é calculado por essa expressão:
+Pn = n!
+
+-As combinações são subconjuntos em que a ordem dos elementos não é importante, entretanto, são caracterizadas pela natureza dos mesmos.
+Assim, para calcular uma combinação simples de n elementos tomados p a p (p ≤ n), utiliza-se a seguinte expressão:
+Cnp = n!/p! (n-p)!"
+        />
+
+    </StackLayout>
+
+</ContentPage>

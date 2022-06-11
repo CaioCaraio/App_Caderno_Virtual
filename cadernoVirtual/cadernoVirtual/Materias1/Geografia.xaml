@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cadernoVirtual.Geografia"
+             Title="Caderno Virtual"
+             BackgroundColor="lightgray"
+             >
+
+    <StackLayout Padding="20">
+        <Label
+            Text="1° ano - Estrutura Geológica da Terra"
+            HorizontalOptions="Center"
+            FontSize="Title"
+            FontAttributes="Bold"
+            FontColor="Black"
+        />
+        <Label
+        Text="A estrutura geológica é a classificação da litosfera terrestre conforme as suas diferentes origens e as composições de suas rochas. Assim, todo o relevo terrestre foi dividido a partir de seus três principais tipos.
+        Podemos perceber, com a correta leitura do mapa, que existem três tipos principais de estruturas geológicas: os crátons, as bacias sedimentares e os dobramentos modernos."
+        />
+
+    </StackLayout>
+
+</ContentPage>
